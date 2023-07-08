@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    padding-left: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section1{
+    width: 30%;
+    margin-top: 3%;
+}
+.section1 > p {
+    margin-bottom: 10px;
+    font-size: small;
+}
+.section1 > h2{
+    margin-bottom: 10px;
+}
+.section1 div{
+    margin-bottom: 10px;
+}
+.section1 div p:nth-child(2){
+    color: gray;
+    margin-right: 10%;
+}
+.colors:nth-child(2){
+    margin-right: 9%;
+}
+
+.colors{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    padding: 14%;
+    margin: 4px 0px 0px 4px;
+    border: 1px solid rgb(0, 0, 0);
+}
+.btn1{
+    /* padding:3% 15%; */
+    padding: 10px 0;
+    width: 43%;
+    font-size: x-large;
+    border: 0px solid white;
+    background-color: rgb(212, 212, 212);
+}
+.btn2{
+    /* padding:3% 10.5%; */
+    width: 43%;
+    padding: 10px 0;
+    font-size: x-large;
+    border: 0px solid white;
+    background-color: rgb(212, 212, 212);
+}
+.blue{
+    background-color: aqua;
+}
+
+
+.orange{
+    background-color: orange;
+}
+.yellow_strong{
+    background: yellow;
+}
+.yellow{
+    background: rgb(255, 255, 156);
+}
+.gray{
+    background: rgb(156, 156, 156);
+}
+.white{
+    background: rgb(255, 255, 255);
+}
+.dark_gray{
+    background: rgb(82, 82, 82);
+}
+
+button:hover{
+    transform: scale(1.05,1.05);
+    transition: all 0.4s;
+}
+.Z{
+    z-index: 5;
+}
+.section2 img{
+    position: absolute;
+    top: 0;
+    width: 60%;
+    margin-top: 3%;
+}
